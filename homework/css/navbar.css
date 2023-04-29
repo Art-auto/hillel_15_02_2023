@@ -1,0 +1,147 @@
+.navbar-wrapper {
+    background: #ffff;
+}
+
+.navbar {
+    display: flex;
+    padding: 32px 100px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ECECEC;
+    position: sticky;
+}
+
+.navbar-menu {
+    display: flex;
+    column-gap: 48px;
+}
+
+.navbar-menu-item {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar-network {
+    display: none;
+}
+
+.hamb {
+    display: none;
+}
+
+#side-menu {
+    display: none;
+}
+
+@media (max-width: 390px) {
+    .navbar-wrapper{
+        height: 96px;
+    }
+
+    .navbar {
+        display: block;
+        position: fixed;
+        overflow: hidden;
+        background: white;
+        width: 100%;
+        padding: 32px 27px;
+        z-index: 1;
+    }
+
+    .navbar-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background-color: white;
+        overflow: hidden;
+        padding: 0;
+        align-items: center;
+        row-gap: 48px;
+        justify-content: center;
+    }
+
+    .navbar-menu-item {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .navbar-menu {
+        max-height: 0;
+
+    }
+
+    .navbar-network {
+        display: flex;
+        position: sticky;
+        bottom: 0;
+        padding: 27px;
+        column-gap: 34px;
+        margin: auto;
+    }
+
+    .hamb {
+        display: block;
+        cursor: pointer;
+        float: right;
+        padding: 20px 20px;
+    }
+
+    .hamb-line {
+        background: black;
+        display: block;
+        height: 2px;
+        position: relative;
+        width: 24px;
+    }
+
+    .hamb-line::before, .hamb-line::after {
+        background: black;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+    }
+
+    .hamb-line::before {
+        top: 5px;
+    }
+
+    .hamb-line::after {
+        top: -5px;
+    }
+
+    .side-menu {
+        display: none;
+    }
+
+    .side-menu:checked {
+        height: 100%;
+    }
+
+    .side-menu:checked ~ .navbar-menu {
+        max-height: 100%;
+        padding-top: 151px
+    }
+
+    .side-menu:checked ~ .hamb .hamb-line {
+        background: transparent;
+    }
+
+    .side-menu:checked ~ .hamb .hamb-line::before {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+
+    .side-menu:checked ~ .hamb .hamb-line::after {
+        transform: rotate(45deg);
+        top: 0;
+    }
+
+}
+

@@ -1,0 +1,28 @@
+@import "./variables.css";
+@import "./fonts.css";
+@import "./reset.css";
+@import "./navbar.css";
+@import "./footer.css";
+
+
+
+html {
+    font-family: Manrope, sans-serif;
+    font-weight: 400;
+    background: #000;
+}
+
+
+.container {
+    padding: 0 16px;
+    max-width: 1072px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media (max-width: 390px) {
+
+    .container {
+        max-width: 100%;
+    }
+}
