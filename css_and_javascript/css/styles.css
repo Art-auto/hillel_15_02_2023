@@ -1,0 +1,57 @@
+
+div {
+  background-color: lightgrey;
+  height: 200px;
+  width: 200px;
+  border: 15px solid green;
+  border-top-color: red;
+  padding: 20px;
+  margin: 20px;
+}
+
+span {
+  display: block;
+  background-color: yellow;
+}
+
+/* body {
+  background-image: url('../images/javascript_logo.png');
+} */
+
+
+
+
+/* h2 {
+  color: blue;
+  font-family: fantasy;
+}
+
+
+
+
+* {                              
+  color: red;
+  font-size: 20px;        
+}
+
+h2 {                              
+  background-color: green;
+  font-size: larger;
+}
+
+
+.main {                         
+  color: black;
+  font-size: smaller;
+} 
+
+#heading {                       
+  color: black;
+  font-size: smaller;
+} 
+
+div {
+  background-color: beige !important;
+}
+
+*/
