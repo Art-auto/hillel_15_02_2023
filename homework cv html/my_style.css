@@ -1,0 +1,56 @@
+body {
+    background-image: url("./wavegreen.jpg") ;width: 100%;
+      
+}
+.colorgreen {
+    color:darkgreen;
+    background-color: rgb(155, 236, 209);
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+* {
+color: rgb(4, 26, 37);
+font-size: 20px;
+}
+#speak {
+color: rgb(13, 13, 193) !important;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.padding {
+    background-color: rgb(183, 242, 94);
+color: darkgreen;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: larger;
+    
+}
+ #picture{
+   color: rgb(6, 61, 9) !important;
+   font-size: x-large;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+color: blue;
+background-color: cornflowerblue;
+padding: 0px;
+}
+#com {
+    border: 0px;
+    color: rgb(132, 34, 34);
+    font-size: 20px;   
+}
+table {  
+    margin: 0px;
+    padding: 0px;
+}
+tr {
+    margin: 40px;
+}
+#job {
+   color: rgb(83, 151, 14) !important;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#linkedin {
+    margin: 0px;
+}
