@@ -1,0 +1,33 @@
+/*body{ 
+    background-color:
+}
+*/
+
+
+
+body{
+    background-image: url("../imeages/pngtree-my-resume-background-material-image_177383.jpg");
+}
+
+div {
+    background-image: url("../imeages/imeage\ for\ landing.png");
+    size: 10cm;
+    background-size: 10cm;
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 40px;
+    background-attachment: fixed;
+  }
+
+  .name {
+    color: blueviolet;
+    text-transform: uppercase;
+  }
+  .QA {
+    color: grey;
+    text-transform: uppercase;
+  }
+
+  
+
+
