@@ -1,17 +1,17 @@
 //_________________1. Завдання 1_________________+
 
-var a = 20
-var b = 2
-var x = a % b
+//var a = 19
+// var b = 2
+// var x = a % b
 
 
-if (x == 0) {
-window.alert('ділиться ' + x)
-}
+// if (x == 0) {
+// console.log('ділиться ' + x)
+// }
 
-else if (x == 1) {
-window.alert('ділиться ' + x)
-}
+// else if (x == 1) {
+// console.log('ділиться ' + x)
+// }
 
 
 
