@@ -1,30 +1,33 @@
 //_________________1. Завдання 1_________________+
 
-//var a = 19
-// var b = 2
-// var x = a % b
+// var a = 19
+//  var b = 2
+//  var x = a % b
 
 
-// if (x == 0) {
-// console.log('ділиться ' + x)
-// }
+//  if (x == 0) {
+//  var c = a/b
+//  console.log('ділиться =' + c)
+//  }
 
-// else if (x == 1) {
-// console.log('ділиться ' + x)
-// }
+//  else if (x == 1) {
+//  console.log('залишок від ділення = ' + x)
+//  }
 
 
 
 //+______________________2. Завдання 2______________________+
 
 
-//var lines = 10;
-//var str = "";
-//var star = "*";
-//for (var i = 0; i < lines; i++) {
-//  str += star;
-// console.log(str);
-//}
+// function  a(count,symbol) {
+//     var c = ''
+//     for (let b = 0; b < count; b++){
+//         c = c  + symbol;
+//         console.log(c);  
+//         }
+//     }
+// a(7,'*')
+
 
 
 //+________________________3.  Завдання 3______________________+
@@ -40,15 +43,16 @@
 
 //__________________________4. Завдання 4_______________________+
 
-//var n=1000;
+// var n=1000;
 // var x=0;
 // while (n>50){
 // n=n/2;
 // x++;
+// if (n<50){
 // console.log ("result " +n)
 // console.log ("count iteration " + x)
 // }
-
+// }
 
 
 
