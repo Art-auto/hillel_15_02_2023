@@ -1,7 +1,15 @@
 var a = 8
 var b = 3
-var c = a % b
-console.log('Ділиться з залишком', c )
+var x = a%b
+
+ if (x == 0) {
+ let c = a/b
+ console.log('ділиться =' + c)
+ }
+
+ else if (x >=1) {
+ console.log('залишок від ділення = ' + x)
+ }
 
 
 
@@ -29,7 +37,6 @@ var d = 0
 while (n > 50){
     n = n / 2
     d = d + 1
-  console.log(n)  
 }
-//console.log(n)
+console.log(n)
 console.log('кількість ділень ' + d)
