@@ -1,13 +1,11 @@
 body {
-    background-image: url("./wavegreen.jpg") ;width: 100%;
-      
+    background-image: url("./wavegreen.jpg") ;width: 100%;     
 }
 .colorgreen {
     color:darkgreen;
     background-color: rgb(155, 236, 209);
     font-size: larger;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
 }
 * {
 color: rgb(4, 26, 37);
@@ -43,13 +41,10 @@ table {
     margin: 0px;
     padding: 0px;
 }
-tr {
-    margin: 40px;
-}
+
 #job {
    color: rgb(83, 151, 14) !important;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
 }
 #linkedin {
     margin: 0px;

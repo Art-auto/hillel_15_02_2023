@@ -20,20 +20,22 @@ if (result != 0) {
 }
 
 // Задача #2
-function drawTriangle(length) {
-    let line = '*';
-    for (let i = 1; i < length; i++) {
-      line += ' *';
+function drawTriangle(size, symb) {
+  let result = '';
+  for (let i = 0; i < 10; i++) {
+    for (let x = 0; x <= i; x++) {
+      result += '#' ;
     }
-    return line;
+    result += '\n';
   }
-  for (let i = 1; i <= 5; i++) {
-    console.log(drawTriangle(i));
-  }
+  return result;
+}
+
+console.log(drawTriangle(10, '#'));
 
   // Задача #3
 
-  for (let i = 0; i < 1000; i++){
+  for (let i = 0; i < 100; i++){
     if(i%2 === 0){
     continue
     }
@@ -50,3 +52,8 @@ while (n > 50) {
 }
 console.log('Результат поділу менше 50: ' + n);
 console.log('Кількість ітерацій: ' + num);
+
+
+
+
+
