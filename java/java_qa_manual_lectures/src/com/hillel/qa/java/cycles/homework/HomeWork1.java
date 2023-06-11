@@ -11,7 +11,7 @@ public class HomeWork1 {
         int count = 0;
 
         while (count < 10) {
-            System.out.println(str + " best of the best");
+            System.out.println(str + " best of the best car ");
             count++;
         }
 
