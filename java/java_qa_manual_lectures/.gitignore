@@ -1,0 +1,5 @@
+.idea
+*.iml
+doc
+out
+*.DS_Store
