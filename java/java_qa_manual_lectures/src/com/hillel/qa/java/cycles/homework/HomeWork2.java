@@ -19,10 +19,10 @@ public class HomeWork2 {
         System.out.println("Введи ціле число");
 
         int a = enterText.nextInt(); // 2
-        System.out.println("Введи друге ціле число");
+        System.out.println(" Введи друге ціле число ");
         int b = enterText.nextInt(); // 4
         int c = a + b;
-        System.out.println("Cума = " + c);
+        System.out.println(" Cума  = " + c);
 
         System.out.println("Введи 'Exit' для виходу");
 
