@@ -36,10 +36,10 @@ public class HomeWork4 {
     public static void main(String[] args) {
             Scanner enterText = new Scanner(System.in);
 
-            System.out.print("Введіть висоту трикутника: ");
+            System.out.print(" Введіть висоту трикутника: ");
         int height = enterText.nextInt();
 
-            System.out.print("Введіть символ для малювання трикутника: ");
+            System.out.print(" Введіть символ для малювання трикутника: ");
         char symbol = enterText.next().charAt(0);
 
             for (int i = 1; i <= height; i++) {

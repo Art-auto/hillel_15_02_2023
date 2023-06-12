@@ -7,7 +7,7 @@ public class HomeWork1 {
      * </p>
      */
     public static void main(String[] args) {
-        String str = "<Зaporojec>";
+        String str = " <Зaporojec> ";
         int count = 0;
         while (count < 10) {
             System.out.println(str + "  best of the best car  ");
